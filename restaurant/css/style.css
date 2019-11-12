@@ -383,7 +383,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/principal.jpg) no-repeat center top;
+	background:url(../images/banner.jpg) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
@@ -906,6 +906,50 @@ html, body{ height: 100%; }
 }
 .tab-menu .is-active p{
 	color:#fff;
+}
+
+/*------------------------------------------------------------------
+    TABLA DE GALLETAS
+-------------------------------------------------------------------*/
+
+
+table.galletas {
+  border: 2px solid #C5336C;
+  background-color: #EECAD8;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.galletas td, table.galletas th {
+  border: 1px solid #C5336C;
+  padding: 3px 2px;
+  text-align: center;
+
+}
+table.galletas tbody td {
+  font-size: 13px;
+}
+table.galletas tr:nth-child(even) {
+  background: #ECEDFF;
+}
+table.galletas thead {
+  background: #C5336C;
+}
+table.galletas thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #C5336C;
+  text-align: center;
+  border-left: 2px solid #C5336C;
+
+}
+table.galletas thead th:first-child {
+  border-left: none;
+  
+}
+
+table.galletas tfoot td {
+  font-size: 13px;
 }
 
 /*------------------------------------------------------------------
