@@ -607,6 +607,7 @@ html, body{ height: 100%; }
 .block-title{
 	font-size:52px;
 	font-family: 'nautilus_pompiliusregular';
+  color: #FA58AC;
 	font-weight: bold;
 }
 
