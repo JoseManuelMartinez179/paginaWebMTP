@@ -276,7 +276,7 @@ html, body{ height: 100%; }
 .main-menu{}
 .header-block-top .navbar-brand {
     margin: 0 !important;
-    padding: 20px 0 20px;
+    padding: 15px 0 15px;
     display: inline-block;
     line-height: normal;
     font-size: 100%;
@@ -915,14 +915,14 @@ html, body{ height: 100%; }
 
 
 table.galletas {
-  border: 2px solid #C5336C;
-  background-color: #EECAD8;
+  border: 2px solid #ccc9c9;
+  background-color: #ffd5b3;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
 }
 table.galletas td, table.galletas th {
-  border: 1px solid #C5336C;
+  border: 1px solid #ababab;
   padding: 3px 2px;
   text-align: center;
 
@@ -931,17 +931,17 @@ table.galletas tbody td {
   font-size: 13px;
 }
 table.galletas tr:nth-child(even) {
-  background: #ECEDFF;
+  background: #f9b978;
 }
 table.galletas thead {
-  background: #C5336C;
+  background: #ababab;
 }
 table.galletas thead th {
   font-size: 19px;
   font-weight: bold;
-  color: #C5336C;
+  color: #ababab;
   text-align: center;
-  border-left: 2px solid #C5336C;
+  border-left: 2px solid #ababab;
 
 }
 table.galletas thead th:first-child {
